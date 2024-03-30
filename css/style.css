@@ -1,0 +1,569 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: gray;
+}
+.container {
+  background-color: #fff;
+  width: 85%;
+  margin: 100px auto;
+}
+.wrapper {
+  width: 85%;
+  margin: 0 auto;
+  padding: 20px;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+/* NAVBAR */
+
+.navbar {
+  padding: 14px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.1);
+}
+.menu,
+.navbar__list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.navbar__link {
+  /* Bosh sahifa */
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  /* identical to box height, or 160% */
+
+  color: #000000;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.navbar__btn {
+  /* phone-number */
+
+  /* Auto layout */
+
+  padding: 8px 16px;
+  border: none;
+
+  width: 160px;
+  height: 40px;
+
+  /* blue */
+  background: #00bafc;
+  border-radius: 5px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 24px;
+  /* identical to box height, or 160% */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.navbar__img:active {
+  width: 58.11px;
+  height: 20px;
+
+  opacity: 0.4;
+}
+.navbar__img:hover {
+  /* pixer-logo */
+
+  width: 58.11px;
+  height: 20px;
+
+  opacity: 0.8;
+}
+
+/* INTRO */
+
+.intro {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.intro__left {
+  width: 470px;
+  height: 224px;
+}
+.intro__title {
+  /* promo-heading */
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 130%;
+  /* or 39px */
+
+  color: #000000;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: flex-start;
+  flex-grow: 0;
+}
+.intro__text {
+  /* promo-text */
+
+  /* body-text */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  color: #000000;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: center;
+  flex-grow: 0;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.intro__btn {
+  /* button */
+
+  border: none;
+  width: 232px;
+  height: 40px;
+
+  /* blue */
+  background: #00bafc;
+  border-radius: 5px;
+
+  /* Inside auto layout */
+  /* Xizmatlar bilan tanishish */
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.intro__video {
+  width: 458px;
+  height: 258px;
+}
+
+/* MAIN */
+
+main {
+  margin-top: 130px;
+}
+.services__title,
+.work__title {
+  /* section-title */
+  padding-bottom: 16px;
+  margin: auto;
+  /* section-title */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 130%;
+  /* or 31px */
+  text-align: center;
+
+  color: #000000;
+}
+.services__text,
+.work__text {
+  /* promo-text */
+  margin: auto;
+  width: 719px;
+  height: 48px;
+
+  /* body-text */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  text-align: center;
+
+  color: #000000;
+}
+.services {
+  margin-top: 16px;
+}
+.service__first {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.services__last {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  align-items: center;
+}
+.service {
+  width: 320px;
+  height: 260px;
+  /* service */
+
+  background: #ffffff;
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin-bottom: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+}
+.service:hover {
+  /* service */
+
+  width: 320px;
+  height: 260px;
+
+  background: #ffffff;
+  box-shadow: 0px 12px 21px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+.service:active {
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+.service__img {
+  width: 222px;
+  height: 130px;
+}
+
+/* ORDER */
+
+.order {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.order__btn {
+  width: 167px;
+  height: 40px;
+
+  /* blue */
+  background: #00bafc;
+  border-radius: 5px;
+
+  /* Buyurtma berish */
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  color: #ffffff;
+  border: none;
+}
+.order__btn:hover {
+  background: rgba(0, 186, 252, 0.8);
+  border-radius: 5px;
+}
+.order__btn:active {
+  /* button */
+
+  background: rgba(0, 186, 252, 0.6);
+  border-radius: 5px;
+}
+.order__link {
+  /* Xizmatlar sahifasiga o’tish */
+
+  width: 192px;
+  height: 24px;
+
+  /* link */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  text-align: center;
+  text-decoration-line: underline;
+
+  /* blue */
+  color: #00bafc;
+  text-decoration: solid;
+}
+
+/* STUDY */
+
+.work {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.work .studies__text {
+  margin: auto;
+  width: 719px;
+  height: 48px;
+  text-align: center;
+}
+.work .studies__title {
+  text-align: center;
+}
+.studies {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  align-items: center;
+}
+.study {
+  width: 832px;
+  height: 278px;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.study__right {
+  width: 500px;
+  height: 82px;
+}
+.study__title {
+  /* steo-name */
+
+  /* subsection-title */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 130%;
+  /* identical to box height, or 26px */
+
+  color: #000000;
+}
+.study__text {
+  /* step-description */
+
+  width: 493px;
+  height: 48px;
+  margin-top: 18px;
+  /* body-text */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  color: #000000;
+}
+.study:nth-child(2),
+.study:nth-child(4) {
+  flex-direction: row-reverse;
+}
+
+/* DELIVER */
+
+.deliver {
+  padding-top: 56px;
+  background: #00bafc;
+  padding-bottom: 64px;
+}
+.deliver__title {
+  width: 203px;
+  height: 31px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 130%;
+  /* or 31px */
+  margin: auto;
+
+  color: #ffffff;
+}
+.deliver__text {
+  /* section-text */
+
+  width: 719px;
+  height: 48px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+  text-align: center;
+
+  color: #ffffff;
+  margin: auto;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.deliver form {
+  background-color: #fff;
+  /* form */
+  width: 348px;
+  height: 304px;
+
+  border-radius: 5px;
+  margin: auto;
+  padding: 24px;
+}
+.deliver__input,
+select {
+  width: 300px;
+  margin-bottom: 24px;
+  /* light-grey */
+  background: #f3f3f3;
+  border-radius: 5px;
+  border: none;
+  padding: 16px;
+
+  /* Ismingiz */
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+
+  color: #000000;
+}
+select {
+  width: 333px;
+}
+.deliver__btn {
+  /* button */
+
+  width: 167px;
+  height: 40px;
+
+  /* blue */
+  background: #00bafc;
+  border-radius: 5px;
+  border: none;
+
+  /* Buyurtma berish */
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  color: #ffffff;
+  margin-left: 95px;
+}
+footer {
+  /* site-footer */
+  padding: 56px 100px;
+
+  /* black */
+  background: #191919;
+  display: flex;
+  gap: 100px;
+}
+.column__title {
+  /* subsection-title */
+  margin-bottom: 16px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 130%;
+  /* identical to box height, or 26px */
+
+  color: #ffffff;
+}
+.column__text {
+  /* site-copy-text */
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+
+  color: #ffffff;
+}
+.footer__column:nth-child(1) {
+  width: 320px;
+}
+.social {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.column__text:hover {
+  /* Bosh sahifa */
+
+  /* body-text */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  /* blue */
+  color: #00bafc;
+}
+.column__text:active {
+  /* Telegram */
+
+  /* body-text */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  /* blue */
+  color: #00bafc;
+  opacity: 0.9;
+}

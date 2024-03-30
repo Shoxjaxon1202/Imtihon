@@ -1,0 +1,430 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: gray;
+}
+.container {
+  background-color: #fff;
+  width: 85%;
+  margin: 100px auto;
+}
+.wrapper {
+  width: 85%;
+  margin: 0 auto;
+  padding: 20px;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+/* NAVBAR */
+
+.navbar {
+  padding: 14px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.1);
+}
+.menu,
+.navbar__list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.navbar__link {
+  /* Bosh sahifa */
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  /* identical to box height, or 160% */
+
+  color: #000000;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.navbar__btn {
+  /* phone-number */
+
+  /* Auto layout */
+
+  padding: 8px 16px;
+  border: none;
+
+  width: 160px;
+  height: 40px;
+
+  /* blue */
+  background: #00bafc;
+  border-radius: 5px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 24px;
+  /* identical to box height, or 160% */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.navbar__img:active {
+  width: 58.11px;
+  height: 20px;
+
+  opacity: 0.4;
+}
+.navbar__img:hover {
+  /* pixer-logo */
+
+  width: 58.11px;
+  height: 20px;
+
+  opacity: 0.8;
+}
+
+/* INTRO */
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  padding-top: 72px;
+  padding-bottom: 72px;
+}
+.intro__title {
+  /* page-title */
+
+  width: 194px;
+  height: 52px;
+
+  /* page-title */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
+  /* identical to box height, or 52px */
+
+  color: #000000;
+}
+.intro__text {
+  /* page-description */
+
+  width: 800px;
+  height: 72px;
+
+  /* body-text */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  text-align: center;
+
+  color: #000000;
+}
+/* MAIN */
+
+main {
+  background-color: #f4f4f4;
+  padding: 80px 240px;
+}
+.services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 64px;
+}
+.service {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  background-color: #fff;
+  width: 804px;
+  height: 350px;
+  padding: 32px;
+}
+.service:hover {
+  /* service */
+
+  background: #ffffff;
+  box-shadow: 0px 12px 21px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+.service:active {
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+.service__title {
+  /* service-name */
+
+  /* subsection-title */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 130%;
+  /* identical to box height, or 26px */
+
+  color: #000000;
+}
+.funksiya {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.figure {
+  margin-top: 20px;
+  width: 15px;
+  height: 15px;
+  background-color: #00bafc;
+  border-radius: 50px;
+}
+.service__text {
+  margin-top: 16px;
+  /* service-info */
+
+  /* body-text */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  color: #000000;
+}
+.order {
+  margin-top: 16px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.service__btn {
+  /* button */
+
+  width: 167px;
+  height: 40px;
+
+  /* blue */
+  background: #00bafc;
+  border-radius: 5px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  color: #ffffff;
+  border: none;
+}
+.service__link {
+  /* Batafsil ma’lumot */
+
+  width: 130px;
+  height: 24px;
+
+  /* link */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  text-align: center;
+  text-decoration-line: underline;
+
+  /* blue */
+  color: #00bafc;
+}
+/* DELIVER */
+
+.deliver {
+  padding-top: 56px;
+  background: #00bafc;
+  padding-bottom: 64px;
+}
+.deliver__title {
+  width: 203px;
+  height: 31px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 130%;
+  /* or 31px */
+  margin: auto;
+
+  color: #ffffff;
+}
+.deliver__text {
+  /* section-text */
+
+  width: 719px;
+  height: 48px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+  text-align: center;
+
+  color: #ffffff;
+  margin: auto;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.deliver form {
+  background-color: #fff;
+  /* form */
+  width: 348px;
+  height: 304px;
+
+  border-radius: 5px;
+  margin: auto;
+  padding: 24px;
+}
+.deliver__input,
+select {
+  width: 300px;
+  margin-bottom: 24px;
+  /* light-grey */
+  background: #f3f3f3;
+  border-radius: 5px;
+  border: none;
+  padding: 16px;
+
+  /* Ismingiz */
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+
+  color: #000000;
+}
+select {
+  width: 333px;
+}
+.deliver__btn {
+  /* button */
+
+  width: 167px;
+  height: 40px;
+
+  /* blue */
+  background: #00bafc;
+  border-radius: 5px;
+  border: none;
+
+  /* Buyurtma berish */
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  color: #ffffff;
+  margin-left: 95px;
+}
+footer {
+  /* site-footer */
+  padding: 56px 100px;
+
+  /* black */
+  background: #191919;
+  display: flex;
+  gap: 100px;
+}
+.column__title {
+  /* subsection-title */
+  margin-bottom: 16px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 130%;
+  /* identical to box height, or 26px */
+
+  color: #ffffff;
+}
+.column__text {
+  /* site-copy-text */
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+
+  color: #ffffff;
+}
+.footer__column:nth-child(1) {
+  width: 320px;
+}
+.social {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.column__text:hover {
+  /* Bosh sahifa */
+
+  /* body-text */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  /* blue */
+  color: #00bafc;
+}
+.column__text:active {
+  /* Telegram */
+
+  /* body-text */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  /* blue */
+  color: #00bafc;
+  opacity: 0.9;
+}
